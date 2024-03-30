@@ -251,13 +251,12 @@ section {
 /*ABOUT SECTION*/
 
 #about {
-    position: relative; 
+    position: relative;
 }
 
 .about-containers {
     gap: 2rem;
-    margin-bottom: 2rem; 
-    margin-top: 2rem;  
+    margin-bottom: 2rem;  
 }
 
 .about-details-container {
@@ -271,17 +270,17 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem; 
+    border-radius: 2rem;    
 }
 
 .arrow {
     position: absolute;
     right: -5rem; /*Width from the right side bar*/
-    bottom: -2.5rem; /*Height from the bottom of the web*/
+    bottom: -1.0rem; /*Height from the bottom of the web*/
 }
 
 .details-container {
-    padding: 0.5rem; 
+    padding: 1rem; 
     flex: 1;
     background: white; 
     border-radius: 2rem; 
@@ -295,18 +294,19 @@ section {
     height: 80%; 
 }
 
-.section_pic-container {
-    height: 400px;
-    width: 400px;
+.section_pic-container { /*Size of 2 containers for education and experience*/
+    height: 300px;
+    width: 300px;
     margin: auto 0; 
 }
 
 /*EXPERIENCE*/
 #experience {
     position: relative; 
+    padding-top: 4rem; 
 }
 
-.experience-sub-title {
+.experience-sub-title { /*Frontend and Backend subtitle*/
     color: rgb(85,85,85);
     font-weight: 600;
     font-size: 1.75rem;
@@ -317,6 +317,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column; 
+    margin-top: 2rem; 
 }
 
 .article-container {
@@ -352,8 +353,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem; 
-    width: 90%; 
-    height: 90%
+    width: 80%; 
+    height: 80%
 }
 
 .project-title {

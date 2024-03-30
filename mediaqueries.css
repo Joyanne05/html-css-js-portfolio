@@ -1,5 +1,4 @@
-/*When screen size is lower than 1200px, desktop navigation will disappear*/
-@media screen and (max-width:1400px){
+@media screen and (max-width:1920px){
     #profile {
         height: 83vh;
         margin-bottom: 6rem; 
